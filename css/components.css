@@ -1,0 +1,429 @@
+
+.ui.input.square {
+  border-radius: 0px;
+}
+
+.ui.input.round {
+  border-radius: var(--radius-3xl);
+}
+
+.ui.input.size-xs {
+  height: 20px;
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+  font-size: 15px;
+}
+
+.ui.input.size-sm {
+  height: 70px;
+  padding-left: var(--space-6xl);
+  padding-right: var(--space-6xl);
+  font-size: 15px;
+}
+
+.ui.input.outline.blue_gray_100 {
+  color: var(--blue_gray_800);
+  border: 1.5px solid var(--blue_gray_100);
+}
+
+.ui.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+  color: var(--blue_gray_800);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/*-------------------------------------
+  2. Button CSS
+--------------------------------------*/
+.ui.button.circle {
+  border-radius: 50%;
+}
+
+.ui.button.round {
+  border-radius: var(--radius-2xl);
+}
+
+.ui.button.size-lg {
+  height: 60px;
+  padding-left: var(--space-5xl);
+  padding-right: var(--space-5xl);
+}
+
+.ui.button.size-3xl {
+  height: 80px;
+  padding-left: var(--space-9xl);
+  padding-right: var(--space-9xl);
+  font-size: 20px;
+}
+
+.ui.button.size-4xl {
+  height: 100px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 24px;
+}
+
+.ui.button.size-sm {
+  height: 60px;
+  padding-left: var(--space-8xl);
+  padding-right: var(--space-8xl);
+  font-size: 18px;
+}
+
+.ui.button.size-6xl {
+  height: 100px;
+  padding-left: var(--space-9xl);
+  padding-right: var(--space-9xl);
+  font-size: 30px;
+}
+
+.ui.button.size-5xl {
+  height: 100px;
+  padding-left: var(--space-9xl);
+  padding-right: var(--space-9xl);
+  font-size: 20px;
+}
+
+.ui.button.size-xs {
+  height: 50px;
+  padding-left: var(--space-2xl);
+  padding-right: var(--space-6xl);
+  font-size: 18px;
+}
+
+.ui.button.size-2xl {
+  height: 80px;
+  padding-left: var(--space-9xl);
+  padding-right: var(--space-9xl);
+  font-size: 24px;
+}
+
+.ui.button.size-xl {
+  height: 70px;
+  padding-left: var(--space-6xl);
+  padding-right: var(--space-6xl);
+}
+
+.ui.button.size-md {
+  height: 60px;
+  padding-left: var(--space-6xl);
+  padding-right: var(--space-6xl);
+  font-size: 15px;
+}
+
+.ui.button.outline.black_900 {
+  color: var(--black_900);
+  border: 1px solid var(--black_900);
+}
+
+.ui.button.fill.teal_700 {
+  background-color: var(--teal_700);
+  color: var(--white_a700);
+}
+
+.ui.button.fill.white_a700 {
+  background-color: var(--white_a700);
+  color: var(--black_900_01);
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/*-------------------------------------
+  3. Textarea CSS
+--------------------------------------*/
+.ui.textarea.round {
+  border-radius: var(--radius-2xl);
+}
+
+.ui.textarea.size-xs {
+  height: 150px;
+  font-size: 15px;
+  padding: var(--space-6xl);
+}
+
+.ui.textarea.taroutlinebluegray100.blue_gray_100 {
+  border: 1.5px solid var(--blue_gray_100) !important;
+}
+
+/*-------------------------------------
+  4. Text CSS
+--------------------------------------*/
+.ui.text.size-texts {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 550px) {
+    font-size: 13px;
+  }
+}
+
+.ui.text.size-textmd {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+
+.ui.text.size-textlg {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 550px) {
+    font-size: 17px;
+  }
+}
+
+.ui.text.size-textxl {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1440px) {
+    font-size: 22px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 18px;
+  }
+}
+
+.ui.text.size-text2xl {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1440px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 20px;
+  }
+}
+
+.ui.text.size-text3xl {
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1440px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 28px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+}
+
+.ui.text {
+  color: var(--black_900);
+  font-family: Plus Jakarta Sans;
+}
+
+/*-------------------------------------
+  5. Heading CSS
+--------------------------------------*/
+.ui.heading.size-textxs {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.ui.heading.size-headingxs {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.ui.heading.size-headings {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+
+.ui.heading.size-headingmd {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: bold;
+  @media only screen and (max-width: 550px) {
+    font-size: 17px;
+  }
+}
+
+.ui.heading.size-headinglg {
+  font-size: 24px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 20px;
+  }
+}
+
+.ui.heading.size-headingxl {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 25px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 23px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 21px;
+  }
+}
+
+.ui.heading.size-heading2xl {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 28px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 25px;
+  }
+}
+
+.ui.heading.size-heading3xl {
+  font-size: 40px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 34px;
+  }
+}
+
+.ui.heading.size-heading4xl {
+  font-size: 50px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 50px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 46px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 42px;
+  }
+}
+
+.ui.heading.size-heading5xl {
+  font-size: 60px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 60px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 52px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 51px;
+  }
+}
+
+.ui.heading.size-heading6xl {
+  font-size: 80px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 80px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.heading.size-heading7xl {
+  font-size: 120px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 120px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.heading.size-heading8xl {
+  font-size: 180px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 180px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.heading {
+  color: var(--black_900);
+  font-family: Plus Jakarta Sans;
+}
+
+/*-------------------------------------
+  6. Container CSS
+--------------------------------------*/
+.container-xs {
+  max-width: 1720px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
